@@ -58,7 +58,6 @@ To set up and run this application in your development environment:
 
 ### 2. Clone the Repository
 
-```bash
 git clone [https://github.com/hienlearing/ExpenseTrackerApp.git](https://github.com/hienlearing/ExpenseTrackerApp.git)
 cd ExpenseTrackerApp
 
@@ -94,6 +93,8 @@ Press a in the terminal to open on an Android Emulator.
 
 Press i in the terminal to open on an iOS Simulator (macOS only).
 
+---
+
 ## 🐛 Challenges & Solutions
 
 During development, I encountered and resolved several key technical challenges:
@@ -108,6 +109,8 @@ During development, I encountered and resolved several key technical challenges:
     * **Solution:** Integrated `expo-image-manipulator` to compress images (reducing pixel dimensions and JPEG quality) directly on the device before sending to n8n.
 * **`eas.json` configuration and standalone `.apk` build errors:** Faced difficulties in creating a standalone Android build.
     * **Solution:** Refined the `eas.json` file to correctly configure `developmentClient: false` and `android.buildType: "apk"` for the `preview` profile, ensuring the generation of a standalone `.apk` file.
+
+---
 
 ## 🔮 Future Enhancements
 
